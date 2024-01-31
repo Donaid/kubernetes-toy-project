@@ -9,9 +9,9 @@ AWS 서비스는 돈이없어서 사용못하니 EC2 에서 모든것을 구성�
 
 # 작업 순서
 
-1. [EC2 인스턴스 생성](https://github.com/Donaid/kubernetes-toy-project/blob/main/1-%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4-%EC%83%9D%EC%84%B1)
+1. [EC2 인스턴스 생성](https://github.com/Donaid/kubernetes-toy-project/blob/main/Documents/1-%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4-%EC%83%9D%EC%84%B1)
 
-2. [디스크 마운트](https://github.com/Donaid/kubernetes-toy-project/blob/main/2.%EB%94%94%EC%8A%A4%ED%81%AC-%EB%A7%88%EC%9A%B4%ED%8A%B8)
+2. [디스크 마운트](https://github.com/Donaid/kubernetes-toy-project/blob/main/Documents/2.%EB%94%94%EC%8A%A4%ED%81%AC-%EB%A7%88%EC%9A%B4%ED%8A%B8)
 
 
 
