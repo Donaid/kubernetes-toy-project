@@ -1,5 +1,12 @@
-1. sudo kubeadm reset
-2. sudo rm -r /etc/cni/net.d
+1. 재시작 : sudo kubeadm reset
+2. 잔여파일 삭제 : sudo rm -r /etc/cni/net.d
 3. ipvsadm --clear(사용했다면)
-4. sudo rm ~/.kube/config
-5. sudo kubeadm init
+4. 잔여파일 삭제 : sudo rm ~/.kube/config
+5. 초기화 : sudo kubeadm init
+
+- kube-apiserver 만 재시작
+1. 수정 : sudo vim /etc/kubernetes/manifests/kube-apiserver.yaml 
+2. 주석만 추가후 저장(yaml 의 주석 #)
+3. 재시작 : sudo systemctl restart kubelet
+4. 상태확인 : kubectl get pods -n kube-system 
+
