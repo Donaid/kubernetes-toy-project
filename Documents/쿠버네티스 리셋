@@ -1,0 +1,5 @@
+1. sudo kubeadm reset
+2. sudo rm -r /etc/cni/net.d
+3. ipvsadm --clear(사용했다면)
+4. sudo rm ~/.kube/config
+5. sudo kubeadm init
