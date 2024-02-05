@@ -11,10 +11,7 @@
 4. 상태확인 : kubectl get pods -n kube-system 
 
 - 상태확인 명령어
-sudo systemctl status kubelet.service
 sudo systemctl status kubelet
-sudo systemctl status kubeadm
-sudo systemctl status kubectl
 
 
 helm list
