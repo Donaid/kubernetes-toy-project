@@ -10,3 +10,27 @@
 3. 재시작 : sudo systemctl restart kubelet
 4. 상태확인 : kubectl get pods -n kube-system 
 
+- 상태확인 명령어
+sudo systemctl status kubelet.service
+sudo systemctl status kubelet
+
+
+
+helm list
+kubectl get nodes
+kubectl get pods --all-namespaces
+kubectl describe pod -l "app.kubernetes.io/name=kafka"
+kubectl describe pod -l "app.kubernetes.io/name=zookeeper"
+sudo ls /etc/cni/net.d
+kubectl describe pod my-kafka-controller-0
+kubectl exec -it my-kafka -- /bin/bash
+kubectl get svc -l "app.kubernetes.io/name=kafka"
+kubectl get pods -l "app.kubernetes.io/name=kafka"
+
+
+
+
+
+
+
+
