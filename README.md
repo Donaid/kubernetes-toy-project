@@ -13,11 +13,11 @@ AWS 의 서비스를 활용하여 클라우드 환경에서 구축
 
 2. [디스크 마운트](https://github.com/Donaid/kubernetes-toy-project/blob/main/Documents/2.%EB%94%94%EC%8A%A4%ED%81%AC-%EB%A7%88%EC%9A%B4%ED%8A%B8.md)
 
+3. 쿠버네티스 설치
 
+4. 쿠버네티스 가동
 
-
-
-
+5. Helm 설치
 
 
 
